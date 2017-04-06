@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:key="flight_columns_pref" android:title="Flight Search Preferences"  
+    android:summary="Set Columns for Search Results"> 
+      <PreferenceCategory  
+        android:key="location_category"  
+        android:layout="@layout/law_detail_head"  
+        android:title="@null" >  
+    </PreferenceCategory> 
+             <PreferenceCategory  
+        android:key="location_category"  
+        android:layout="@layout/zhiti_size_layout"  
+        android:title="@null" >  
+    </PreferenceCategory>   
+          <CheckBoxPreference   
+        android:key="keep_screen_on"   
+        android:widgetLayout="@layout/accelerometer_checkbox"    
+        android:title="@string/g2g3"/>  
+  
+    <CheckBoxPreference   
+       android:key="allow_mock_location"       
+        android:widgetLayout="@layout/accelerometer_checkbox1"    
+        android:title="@string/tuisong"/>  
+</PreferenceScreen> 

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/res/drawable-mdpi"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   name="body_bg_2x120.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x121.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x122.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x123.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x124.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x160.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x125.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x161.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x126.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x162.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x127.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x163.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x128.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x164.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x129.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x165.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x166.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x167.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x168.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x169.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x11.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x12.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x13.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x14.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x15.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x16.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x17.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x18.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x19.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x130.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x131.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x132.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x133.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x134.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x170.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x171.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x135.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x136.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x172.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x173.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x137.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x174.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x138.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x139.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x175.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x176.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   committed-rev="2"
+   name="ic_launcher.png"
+   text-time="2013-06-19T09:52:19.879201Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="0ae8d7c003efea5db2c7f22c86b2cf0c"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.429256Z"/>
+<entry
+   name="body_bg_2x177.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x178.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x179.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1100.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1101.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1102.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1103.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1104.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1105.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1106.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1107.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1108.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1109.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x140.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x141.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x142.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x143.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x180.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x144.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x181.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x145.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x146.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x182.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x183.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x147.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x148.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x184.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x149.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x185.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x186.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x187.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x188.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x189.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1110.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1111.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1112.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1113.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1114.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1115.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x1116.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x110.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x111.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x112.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x113.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x150.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x114.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x115.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x151.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x116.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x152.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x153.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x117.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x154.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x190.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x118.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x155.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x191.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x119.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x192.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x156.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x157.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x193.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x158.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x194.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x159.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x195.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x196.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x197.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x198.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="body_bg_2x199.png"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+</wc-entries>

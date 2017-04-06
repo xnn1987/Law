@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2013-06-20T10:05:08.799953Z"
+   url="svn://140.206.48.34/fgapp/android/res/xml"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="3"/>
+<entry
+   committed-rev="4"
+   name="checkboxperference.xml"
+   text-time="2013-06-20T03:34:32.816418Z"
+   committed-date="2013-06-20T10:05:10.078833Z"
+   checksum="23d51b7ffb99e3729e0f86a06e770898"
+   last-author="xingdp"
+   kind="file"
+   revision="4"/>
+</wc-entries>

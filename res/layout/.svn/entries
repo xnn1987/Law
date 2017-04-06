@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/res/layout"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="6"
+   name="accelerometer_checkbox.xml"
+   text-time="2013-06-20T03:34:40.506858Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="2a031b61171439a23ccc932238ec8d52"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="17"
+   name="law_type_item_item.xml"
+   text-time="2013-06-21T02:08:33.945894Z"
+   committed-date="2013-06-21T10:49:12.104193Z"
+   checksum="5526e17d1b5a3910cdc995cea47d0012"
+   last-author="xingdp"
+   kind="file"
+   revision="17"/>
+<entry
+   committed-rev="49"
+   name="register_layout.xml"
+   text-time="2013-06-27T07:23:11.983813Z"
+   committed-date="2013-06-27T10:53:55.244096Z"
+   checksum="fb8caab0c7bd9beced70ec5ede82983b"
+   last-author="xingdp"
+   kind="file"
+   revision="49"/>
+<entry
+   committed-rev="17"
+   name="lawtype_layout.xml"
+   text-time="2013-06-21T09:45:59.255403Z"
+   committed-date="2013-06-21T10:49:12.104193Z"
+   checksum="88add5a0ca4bce88a8c9b6d4a27930d9"
+   last-author="xingdp"
+   kind="file"
+   revision="17"/>
+<entry
+   committed-rev="2"
+   name="home_layout.xml"
+   text-time="2013-06-19T05:58:35.447000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="7c45c336d6bbb3e0d0e1f4e7c378202e"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   name="download_item.xml"
+   kind="file"
+   deleted="true"
+   revision="17"/>
+<entry
+   committed-rev="17"
+   name="law_detail_head.xml"
+   text-time="2013-06-21T02:54:22.756117Z"
+   committed-date="2013-06-21T10:49:12.104193Z"
+   checksum="ffd7a95a86b17d357380ee5b1a968b2e"
+   last-author="xingdp"
+   kind="file"
+   revision="17"/>
+<entry
+   committed-rev="2"
+   name="law_detial_bottom.xml"
+   text-time="2013-06-19T01:23:03.663000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="cbbafa18cf8ae635f5827894e14a7e78"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="2"
+   name="type_list_item.xml"
+   text-time="2013-06-19T09:39:10.362000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="19cc4fd0738521c9baf21efacf745126"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="2"
+   name="toast.xml"
+   text-time="2013-06-18T03:22:05.209000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="cf65dea78295357578f2701eaecc98f4"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="2"
+   name="start.xml"
+   text-time="2013-06-18T05:23:26.542000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="3fb2455064aeb64aba818febfd534eec"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="49"
+   name="suggest_back_layout.xml"
+   text-time="2013-06-27T03:15:38.685253Z"
+   committed-date="2013-06-27T10:53:55.244096Z"
+   checksum="15d37d136472451d0ba10d4544d3a744"
+   last-author="xingdp"
+   kind="file"
+   revision="49"/>
+<entry
+   committed-rev="6"
+   name="main_item_layout.xml"
+   text-time="2013-06-20T05:44:32.012506Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="41794be87032aa8894414f00a2d56e24"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="2"
+   name="more_layout.xml"
+   text-time="2013-06-19T09:17:17.358000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="38441ac6fe0b5dffa29b69791bc28bcf"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="49"
+   name="author_layout.xml"
+   text-time="2013-06-27T10:09:52.939835Z"
+   committed-date="2013-06-27T10:53:55.244096Z"
+   checksum="939bcc7838ec0d0eb8a58c538152dd7f"
+   last-author="xingdp"
+   kind="file"
+   revision="49"/>
+<entry
+   name="activity_main.xml"
+   kind="file"
+   deleted="true"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="accelerometer_checkbox1.xml"
+   text-time="2013-06-20T03:34:21.054745Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="cdd6c52ff839622d1a0de7478f827528"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="2"
+   name="law_type_item.xml"
+   text-time="2013-06-19T09:35:46.845000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="c5898c943c6b099e7c585382d2b8f302"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="2"
+   name="myshare_layout.xml"
+   text-time="2013-06-19T03:31:03.732000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="26ce0baa9b177bc8dc78027075d4de2f"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="2"
+   name="main_bottom_layout.xml"
+   text-time="2013-06-18T07:30:45.371000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="6a51b7cf84b434aaafd94633070bb0f2"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="49"
+   name="login_layout.xml"
+   text-time="2013-06-27T07:16:15.611998Z"
+   committed-date="2013-06-27T10:53:55.244096Z"
+   checksum="a3fcff977236626b0beed37c64662679"
+   last-author="xingdp"
+   kind="file"
+   revision="49"/>
+<entry
+   committed-rev="2"
+   name="action_layout.xml"
+   text-time="2013-06-18T06:35:27.144000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="8655be0285eb902969e2ec031cde573c"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="6"
+   name="popu_layout.xml"
+   text-time="2013-06-20T02:06:55.997745Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="a421db6b0159d86c6bd353aef914df7e"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="main_layout.xml"
+   text-time="2013-06-19T08:13:17.604000Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="6f0474e9f1639a8fae84249ccfaaafc8"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="2"
+   name="myaccout_layout.xml"
+   text-time="2013-06-17T08:57:57.112000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="31aec2f7fcf41dc97c1bcb4bfc52c4dd"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="6"
+   name="pref_widget_more.xml"
+   text-time="2013-06-17T07:25:54.351000Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="675009b99e3754005a394886ff736a88"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="17"
+   name="download_save_layout.xml"
+   text-time="2013-06-21T02:16:13.230164Z"
+   committed-date="2013-06-21T10:49:12.104193Z"
+   checksum="b1acbb0f2c4af6d5a690f29bec44e7c4"
+   last-author="xingdp"
+   kind="file"
+   revision="17"/>
+<entry
+   committed-rev="6"
+   name="mycommend_layout.xml"
+   text-time="2013-06-20T08:14:15.944358Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="824900b890521b41ff571d6b61a2151e"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="static_background.xml"
+   text-time="2013-06-17T07:30:30.398000Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="85d9f4eb9f0d7c252da06ac35a9c78c1"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="41"
+   name="downloaddetial_layout.xml"
+   text-time="2013-06-26T06:06:00.112111Z"
+   committed-date="2013-06-26T10:35:40.432365Z"
+   checksum="1a4c03c0492b0b7e5d24adce6abf126f"
+   last-author="xingdp"
+   kind="file"
+   revision="41"/>
+<entry
+   committed-rev="6"
+   name="collection_layout.xml"
+   text-time="2013-06-19T10:35:51.881599Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="22b5c4439cdc9d8a9decc332169f972d"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="68"
+   name="law_type_item_view.xml"
+   text-time="2013-07-02T08:37:52.688761Z"
+   committed-date="2013-07-02T10:43:19.066922Z"
+   checksum="7762586c2462575fd4d335ec579fce10"
+   last-author="xingdp"
+   kind="file"
+   revision="68"/>
+<entry
+   committed-rev="32"
+   name="searchcontent_layout.xml"
+   text-time="2013-06-25T09:32:31.891190Z"
+   committed-date="2013-06-25T10:32:22.778874Z"
+   checksum="f9f5e5eed8baaa32fee2fa9c59f68f4d"
+   last-author="xingdp"
+   kind="file"
+   revision="32"/>
+<entry
+   committed-rev="6"
+   name="law_detail_layout.xml"
+   text-time="2013-06-20T08:00:41.309763Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="9f5a900b6cf9d6e67721d4287b64bded"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="31"
+   name="search_layout.xml"
+   text-time="2013-06-25T05:10:53.122272Z"
+   committed-date="2013-06-25T10:32:13.766402Z"
+   checksum="834f610bff1bc14d626f79022f641a5c"
+   last-author="xingdp"
+   kind="file"
+   revision="31"/>
+<entry
+   committed-rev="2"
+   name="newguide_layout.xml"
+   text-time="2013-06-18T05:57:35.392000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="e82ee5a6b509262ef73cfe6369845c61"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="49"
+   name="about_layout.xml"
+   text-time="2013-06-27T02:37:57.994949Z"
+   committed-date="2013-06-27T10:53:55.244096Z"
+   checksum="3e8271b5cf51d204dee8afb1bac392ab"
+   last-author="xingdp"
+   kind="file"
+   revision="49"/>
+<entry
+   committed-rev="6"
+   name="collection_item.xml"
+   text-time="2013-06-20T02:26:38.192363Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="41794be87032aa8894414f00a2d56e24"
+   last-author="xingdp"
+   kind="file"
+   schedule="delete"
+   revision="6"/>
+<entry
+   committed-rev="49"
+   name="updatepsw_layout.xml"
+   text-time="2013-06-27T02:15:12.489846Z"
+   committed-date="2013-06-27T10:53:55.244096Z"
+   checksum="f58b48612ccef14a8f50df697d148686"
+   last-author="xingdp"
+   kind="file"
+   revision="49"/>
+<entry
+   committed-rev="6"
+   name="setting_layout.xml"
+   text-time="2013-06-19T10:45:35.471978Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="c4591c430d3deb25ec028fa937a9e5cb"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="helper_layout.xml"
+   text-time="2013-06-20T09:40:30.655334Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="26c03c539e6e7f80280eff095e3953ee"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="forget_psw_layout.xml"
+   text-time="2013-06-20T09:52:02.791922Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="7ec0bcec23860395398fd5aac8c33aa3"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+<entry
+   committed-rev="6"
+   name="zhiti_size_layout.xml"
+   text-time="2013-06-20T03:10:37.719335Z"
+   committed-date="2013-06-20T10:06:05.975002Z"
+   checksum="bba6508b35fd558fde8b2885ac4ab246"
+   last-author="xingdp"
+   kind="file"
+   revision="6"/>
+</wc-entries>

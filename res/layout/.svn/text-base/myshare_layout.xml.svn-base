@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#333333">
+    <Button 
+     android:id="@+id/sina_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/sinaweibo"
+     />   
+ <Button 
+     android:id="@+id/tecent_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/tencetweibo"
+     /> 
+      <Button 
+     android:id="@+id/weixin_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/weixin"
+     /> 
+      <Button 
+     android:id="@+id/weixin_friend_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/weixin_friend"
+     /> 
+      <Button 
+     android:id="@+id/quxiao_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/cancel"
+     />  
+
+</LinearLayout>

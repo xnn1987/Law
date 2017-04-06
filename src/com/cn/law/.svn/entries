@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/src/com/cn/law"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   name="Helper"
+   kind="dir"/>
+<entry
+   name="adapter"
+   kind="dir"/>
+<entry
+   name="service"
+   kind="dir"/>
+<entry
+   name="bean"
+   kind="dir"/>
+<entry
+   committed-rev="7"
+   name="LawAPPState.java"
+   text-time="2013-06-20T07:27:17.649161Z"
+   committed-date="2013-06-20T10:06:22.413038Z"
+   checksum="0f6959bdc65ea1f0ced5ce7f66308794"
+   last-author="xingdp"
+   kind="file"
+   revision="7"/>
+<entry
+   name="base"
+   kind="dir"/>
+<entry
+   name="ui"
+   kind="dir"/>
+<entry
+   name="util"
+   kind="dir"/>
+</wc-entries>

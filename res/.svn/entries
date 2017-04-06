@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/res"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   name="values"
+   kind="dir"/>
+<entry
+   name="values-sw720dp-land"
+   kind="dir"/>
+<entry
+   name="values-sw600dp"
+   kind="dir"/>
+<entry
+   name="xml"
+   kind="dir"/>
+<entry
+   name="drawable"
+   kind="dir"/>
+<entry
+   name="drawable-hdpi"
+   kind="dir"/>
+<entry
+   name="drawable-xxhdpi"
+   kind="dir"/>
+<entry
+   name="menu"
+   kind="dir"/>
+<entry
+   name="values-v11"
+   kind="dir"/>
+<entry
+   name="values-v14"
+   kind="dir"/>
+<entry
+   name="drawable-mdpi"
+   kind="dir"/>
+<entry
+   name="drawable-xhdpi"
+   kind="dir"/>
+<entry
+   name="layout"
+   kind="dir"/>
+</wc-entries>

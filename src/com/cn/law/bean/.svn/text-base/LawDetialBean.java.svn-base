@@ -1,0 +1,127 @@
+package com.cn.law.bean;
+
+import java.io.Serializable;
+
+public class LawDetialBean implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private int fid;
+	private String Title;
+	private String fLawNo;
+	private String fDepartmentName;
+	private String fReleaseDate;
+	private String fTradeName;
+	private String fTypeName;
+	private String fActualize;
+	private String fInputTime;
+	private String fContent;
+
+	public LawDetialBean() {
+
+	}
+
+	public LawDetialBean(int fid, String title, String fLawNo,
+			String fDepartmentName, String fReleaseDate, String fTradeName,
+			String fTypeName, String fActualize, String fInputTime,
+			String fContent) {
+		super();
+		this.fid = fid;
+		Title = title;
+		this.fLawNo = fLawNo;
+		this.fDepartmentName = fDepartmentName;
+		this.fReleaseDate = fReleaseDate;
+		this.fTradeName = fTradeName;
+		this.fTypeName = fTypeName;
+		this.fActualize = fActualize;
+		this.fInputTime = fInputTime;
+		this.fContent = fContent;
+	}
+
+	public int getFid() {
+		return fid;
+	}
+
+	public void setFid(int fid) {
+		this.fid = fid;
+	}
+
+	public String getTitle() {
+		return Title;
+	}
+
+	public void setTitle(String title) {
+		Title = title;
+	}
+
+	public String getfLawNo() {
+		return fLawNo;
+	}
+
+	public void setfLawNo(String fLawNo) {
+		this.fLawNo = fLawNo;
+	}
+
+	public String getfDepartmentName() {
+		return fDepartmentName;
+	}
+
+	public void setfDepartmentName(String fDepartmentName) {
+		this.fDepartmentName = fDepartmentName;
+	}
+
+	public String getfReleaseDate() {
+		return fReleaseDate;
+	}
+
+	public void setfReleaseDate(String fReleaseDate) {
+		this.fReleaseDate = fReleaseDate;
+	}
+
+	public String getfTradeName() {
+		return fTradeName;
+	}
+
+	public void setfTradeName(String fTradeName) {
+		this.fTradeName = fTradeName;
+	}
+
+	public String getfTypeName() {
+		return fTypeName;
+	}
+
+	public void setfTypeName(String fTypeName) {
+		this.fTypeName = fTypeName;
+	}
+
+	public String getfActualize() {
+		return fActualize;
+	}
+
+	public void setfActualize(String fActualize) {
+		this.fActualize = fActualize;
+	}
+
+	public String getfInputTime() {
+		return fInputTime;
+	}
+
+	public void setfInputTime(String fInputTime) {
+		this.fInputTime = fInputTime;
+	}
+
+	public String getfContent() {
+		return fContent;
+	}
+
+	public void setfContent(String fContent) {
+		this.fContent = fContent;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
+}

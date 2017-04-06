@@ -1,0 +1,440 @@
+package com.cn.law.ui;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import javax.security.auth.callback.Callback;
+import javax.security.auth.callback.CallbackHandler;
+import javax.security.auth.callback.UnsupportedCallbackException;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.impl.conn.DefaultClientConnection;
+import org.apache.http.util.EntityUtils;
+
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
+import android.graphics.Paint.Join;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemLongClickListener;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
+import android.widget.AdapterView.OnItemClickListener;
+
+import com.cn.law.R;
+import com.cn.law.Helper.DBHelper;
+import com.cn.law.adapter.LawTypeAdapter;
+import com.cn.law.base.BaseActivity;
+import com.cn.law.bean.Constants;
+import com.cn.law.bean.LawDetialBean;
+import com.cn.law.bean.LawDownBean;
+import com.cn.law.bean.LawTypeBean;
+import com.cn.law.bean.MainFastBean;
+import com.cn.law.service.DownLoadService;
+import com.cn.law.util.HashUtil;
+import com.cn.law.util.JsonUtil;
+import com.cn.law.util.ZipUtil;
+import com.common.internet.AjaxCallBack;
+import com.common.internet.FastHttp;
+import com.common.internet.ResponseEntity;
+
+public class LawTypeItemActivity extends BaseActivity {
+	private Intent intent;
+
+	private String sortKey,folderName;
+	private int position;
+	private ListView typeList;
+	private Button backBtn,headBtn;
+	private TextView headTxt;
+	private List<LawTypeBean> data;
+	private List<MainFastBean> mdata;
+	private List<LawDownBean> ldata;
+	private LawTypeAdapter adapter;
+	private LawTypeBean lBean;
+	private LawDownBean ldBean;
+	private String filename;
+	private String typename;
+	private String url;
+	private String path,path1;
+	private Thread thread;
+	private File file;
+	private  List<LawDetialBean> llData=new ArrayList<LawDetialBean>();
+	private LawDetialBean llBean;
+	private MainFastBean mBean;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+    	super.onCreate(savedInstanceState);
+    	setContentView(R.layout.law_type_item);
+    	intent=getIntent();
+    	sortKey=intent.getStringExtra("sortkey");
+    	folderName=intent.getStringExtra("folderName");
+    	position=intent.getIntExtra("position", 0);
+    	initView();
+    	getData();	
+    }
+     private void initView() {
+       backBtn=(Button) findViewById(R.id.back_btn);
+  	   headBtn=(Button) findViewById(R.id.head_btn);
+  	   headTxt=(TextView) findViewById(R.id.head_txt);
+  	   typeList=(ListView) findViewById(R.id.type_list);
+  	   headBtn.setVisibility(View.VISIBLE);
+  	   headTxt.setText(folderName);
+  	   backBtn.setOnClickListener(this);
+  	   headBtn.setOnClickListener(this);
+  	   typeList.setOnItemClickListener(new OnItemClickListener() {
+
+  		@Override
+  		public void onItemClick(AdapterView<?> adapter, View view, int position,
+  				long arg3) {
+  			Intent intent=new Intent(LawTypeItemActivity.this,LawTypeItemItemActivity.class);
+  		    lBean=data.get(position);
+		    folderName=lBean.getFolderName();
+		    sortKey=lBean.getShortkey();
+			intent.putExtra("folderName",folderName);
+			intent.putExtra("sortkey",sortKey);
+  			startActivityForResult(intent,10);
+  		}
+  	});
+	typeList.setOnItemLongClickListener(new OnItemLongClickListener() {
+
+		@Override
+		public boolean onItemLongClick(AdapterView<?> adapter, View view,
+				int position, long arg3) {
+			getDialog();
+			return true;
+		}
+	});
+	}
+	private void getData(){
+         HashMap<String, String> params = new HashMap<String, String>();
+    	 params.put("sortkey", sortKey);
+		 params.put("username","xnn1987");
+		 String hash=HashUtil.formhash("xnn1987", sortKey);
+		 params.put("hash", hash);
+		 FastHttp.ajax(Constants.LAWTYPE, params, new
+		 AjaxCallBack() {
+		 @Override
+		 public void callBack(ResponseEntity entity) {
+		 	switch (entity.getStatus()) {
+			case FastHttp.result_ok:
+				data=JsonUtil.getLawTypesData(entity.getContentAsString());
+		    	//	System.out.println(data);
+			     adapter=new LawTypeAdapter(data, LawTypeItemActivity.this);
+			     typeList.setAdapter(adapter);
+				break;
+
+			default:
+				break;
+			}
+		 }
+		 });
+     }
+	@Override
+	public void onClick(View v) {
+    switch (v.getId()) {
+	case R.id.back_btn:
+		finish();
+		break;
+
+	case R.id.head_btn:
+		gotoDownLoading(); 
+	    save();
+//		intent=new Intent(LawTypeItemActivity.this,DownLoadService.class);
+//		intent.putExtra("position", position);
+//		startService(intent);
+		break;
+	}
+	}
+
+private void getDialog(){
+	 AlertDialog.Builder builder=new AlertDialog.Builder(LawTypeItemActivity.this);
+	    builder.setMessage(getString(R.string.zhifu_message))
+	            .setPositiveButton(R.string.yes, new OnClickListener() {
+					
+	            	
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+				       //下载的方法
+						//gotoDownLoading();  
+						
+					}
+				})
+	           .setNegativeButton(R.string.no,new OnClickListener() {
+			
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				dialog.dismiss();
+			}
+		}).show(); 
+ }
+  // 下载数据
+	private void gotoDownLoading() {
+		  getDownLoadData();
+		  url=Constants.DOWNLOADS+filename;
+		  thread=new Thread(run);
+		  switch (position) {
+  		case 0:
+  			path="mnt/sdcard/fz0.zip";
+  			path1="mnt/sdcard/f0";        
+  			break;
+
+  		case 1:
+  			path="mnt/sdcard/fz1.zip";
+  			path1="mnt/sdcard/f1"; 
+  			break;
+  		case 2:
+  			path="mnt/sdcard/fz2.zip";
+  			path1="mnt/sdcard/f2"; 
+  			break;	
+  		case 3:
+  			path="mnt/sdcard/fz3.zip";
+  			path1="mnt/sdcard/f3"; 
+  			break;	
+  		case 4:
+  			path1="mnt/sdcard/fz4.zip";
+  			path="mnt/sdcard/f4"; 
+  			break;	
+  		case 5:
+  			path="mnt/sdcard/fz5.zip";
+  			path1="mnt/sdcard/f5"; 
+  			break;	
+  		case 6:
+  			path="mnt/sdcard/fz6.zip";
+  			path1="mnt/sdcard/f6"; 
+  			break;	
+  		case 7:
+  			path="mnt/sdcard/fz7.zip";
+  			path1="mnt/sdcard/f7"; 
+  			break;	
+  		case 8:
+  			path="mnt/sdcard/fz8.zip";
+  			path1="mnt/sdcard/f8"; 
+  			break;	
+  		case 9:
+  			path="mnt/sdcard/fz9.zip";
+  			path1="mnt/sdcard/f9"; 
+  			break;	
+  		case 10:
+  			path="mnt/sdcard/fz10.zip";
+  			path1="mnt/sdcard/f10"; 
+  			break;	
+  		case 11:
+  		    path="mnt/sdcard/fz11.zip";
+  			path1="mnt/sdcard/f11"; 
+  			break;	
+  		case 12:
+  			path="mnt/sdcard/fz12.zip";
+  			path1="mnt/sdcard/f12"; 
+  			break;	
+  		case 13:
+  			path="mnt/sdcard/fz13.zip";
+  			path1="mnt/sdcard/f13"; 
+  			break;
+  		case 14:
+  			path="mnt/sdcard/fz14.zip";
+  			path1="mnt/sdcard/f14"; 
+  			break;
+  		case 15:
+  			path="mnt/sdcard/fz15.zip";
+  			path1="mnt/sdcard/f15"; 
+  			break;
+  		case 16:
+  			path="mnt/sdcard/fz16.zip";
+  			path1="mnt/sdcard/f16"; 
+  			break;
+  		}
+	thread.start();	
+	}
+private void getDownLoadData() {
+ HashMap<String, String> params=new HashMap<String, String>();
+ switch (position) {
+case 0:
+	 typename="001";
+	 params.put("lawtype","001");
+	break;
+case 1:
+     typename="002";
+	 params.put("lawtype",typename);
+	break;
+case 2:
+    typename="003";
+	 params.put("lawtype",typename);
+	break;
+case 3:
+    typename="004";
+	 params.put("lawtype",typename);
+	break;
+case 4:
+    typename="005";
+	 params.put("lawtype",typename);
+	break;
+case 5:
+    typename="006";
+	 params.put("lawtype",typename);
+	break;
+case 6:
+    typename="007";
+	 params.put("lawtype",typename);
+	break;
+case 7:
+    typename="008";
+	 params.put("lawtype",typename);
+	break;
+case 8:
+    typename="009";
+	 params.put("lawtype",typename);
+	break;
+case 9:
+    typename="010";
+	 params.put("lawtype",typename);
+	break;
+case 10:
+    typename="011";
+	 params.put("lawtype",typename);
+	break;
+case 11:
+    typename="012";
+	 params.put("lawtype","012");
+	break;
+case 12:
+    typename="013";
+	 params.put("lawtype",typename);
+	break;
+case 13:
+    typename="014";
+	 params.put("lawtype",typename);
+	break;
+case 14:
+    typename="015";
+	 params.put("lawtype",typename);
+	break;
+case 15:
+    typename="016";
+	 params.put("lawtype",typename);
+	break;
+case 16:
+     typename="017";
+	 params.put("lawtype",typename);
+	break;
+}
+
+ params.put("username", "xnn1987");
+ String hash=HashUtil.formhash("xnn1987",typename);
+ params.put("hash", hash);
+ FastHttp.ajax(Constants.DOWNLOAD, params, new AjaxCallBack() {
+	
+	@Override
+	public void callBack(ResponseEntity entity) {
+		  switch (entity.getStatus()) {
+		case FastHttp.result_ok:
+			ldBean=JsonUtil.getLawDownData(entity.getContentAsString());
+			filename=ldBean.getFname();
+			typename=ldBean.getLtype();
+		//	System.out.println(entity.getContentAsString());
+			break;
+		}	
+	}
+});
+}
+ private Runnable run=new Thread(){
+
+	@Override
+	public void run() {
+			getZip (url , path);
+			getUpZip(file,path1);			
+	}
+
+
+ };
+ //得到zip包
+   private void getZip (String url ,String path){
+	    try {
+				URL urls=new URL(url);
+				URLConnection conn=urls.openConnection();
+				InputStream in=conn.getInputStream();
+				File file=new File(path);
+			    OutputStream out=new FileOutputStream(file);
+			     byte[] buffer=new byte[1024];
+			     int l=0;
+			     while ((l=in.read(buffer))!=-1) {
+					out.write(buffer, 0, l);	
+				}
+			     in.close();
+			     out.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			} 
+   }
+   //解压zip包
+	private void getUpZip(File file, String path1) {
+		 try {
+		        file=new File(path);
+				File[] files=ZipUtil.unzip(file,path1 ,"law.client");
+				for (int i = 0; i < files.length; i++) {
+					 System.out.println(files[i]);
+				    FileInputStream in=new FileInputStream(files[i]);
+					StringBuilder builder=new StringBuilder();
+					BufferedReader buffers=new BufferedReader(new InputStreamReader(in));
+					for (String s=buffers.readLine();s!=null;s=buffers.readLine()) {
+						builder.append(s);
+					}
+					String ss=builder.toString();
+					System.out.println(ss);
+					llBean=JsonUtil.getLawContentFromNative(ss);
+					System.out.println(llBean.toString());
+					mBean=new MainFastBean(llBean.getTitle(), llBean.getfDepartmentName(), llBean.getfLawNo(),llBean.getfReleaseDate());
+					insertToDBHelper();
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}		
+	}
+	 
+   //保存到数据库
+   private void save() {
+	   DBHelper helper=new DBHelper(this);
+	   for (int i = 0; i < data.size(); i++) {
+		lBean=data.get(i);
+		helper.downloadTitle(lBean);
+	}
+	   System.out.println(folderName+lBean);
+	if (helper.downloadType(folderName)&&helper.downloadTitle(lBean)) {
+		Toast.makeText(LawTypeItemActivity.this, "ok!!!", 1).show();
+	}else{
+		Toast.makeText(LawTypeItemActivity.this, "fail!!!", 2).show();
+	}
+	}
+	//插入数据库
+	private void insertToDBHelper() {
+      DBHelper helper=new DBHelper(this); 
+     if (helper.downloadItem(llBean)&&helper.downloadList(mBean)) {
+		System.out.println("success!!!");
+	}else{
+		System.out.println("fail!!!");
+	}	
+	}
+}

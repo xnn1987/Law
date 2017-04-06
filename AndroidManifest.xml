@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cn.law"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+  <uses-permission android:name="android.permission.INTERNET"/>
+      <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:name="LawAPPState"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+          <activity
+            android:name="com.cn.law.ui.AppStart"
+            android:label="@string/app_name" >
+                                        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                <activity 
+              android:name="com.cn.law.ui.HomeActivity">
+
+        </activity>
+        <activity 
+              android:name="com.cn.law.ui.MainActivity"> 
+                                 
+        </activity>
+                <activity 
+              android:name="com.cn.law.ui.NewGuideActivity">
+                    
+                </activity>
+                                <activity 
+              android:name="com.cn.law.ui.LawDetialActivity">
+
+                                </activity>
+           <activity 
+              android:name="com.cn.law.ui.LawLoadActivity">
+
+                                </activity>
+                  <activity 
+              android:name="com.cn.law.ui.LawLoadItemActivity">
+
+                                </activity>   
+                                                  <activity 
+              android:name="com.cn.law.ui.LawLoadItemItemActivity">
+
+                                </activity>   
+                                                  <activity 
+              android:name="com.cn.law.ui.LawLoadItemDetialActivity">
+
+                                </activity>                  
+        <activity 
+              android:name="com.cn.law.ui.LawSouSuoActivity">
+
+                                </activity>
+          <activity 
+              android:name="com.cn.law.ui.LawTypeActivity">
+
+    </activity>
+           <activity 
+              android:name="com.cn.law.ui.MyCommendActivity">
+
+                                </activity>
+                                  <activity 
+              android:name="com.cn.law.ui.MyShareActivity">
+
+                                </activity>
+       <activity 
+              android:name="com.cn.law.ui.MoreActivity">
+
+                                </activity>      
+     <activity 
+              android:name="com.cn.law.ui.MyAccountActivity">
+
+                                </activity>  
+                                     <activity 
+              android:name="com.cn.law.ui.MyCollectActivity">
+
+                                </activity> 
+    <activity 
+              android:name="com.cn.law.ui.SettingActivity">
+
+                                </activity>    
+    <activity 
+              android:name="com.cn.law.ui.UpdatePSWActivity">
+
+                                </activity> 
+                                  <activity 
+              android:name="com.cn.law.ui.SuggestBackActivity">
+
+                                </activity>
+                                     <activity 
+              android:name="com.cn.law.ui.HelpActivity">
+
+                                </activity>
+                      <activity 
+              android:name="com.cn.law.ui.LoginActivity">
+                                </activity>  
+                                     <activity 
+              android:name="com.cn.law.ui.RegesterActivity">
+
+                                </activity> 
+                                <activity 
+              android:name="com.cn.law.ui.AboutActivity">
+
+                                </activity>  
+                                            <activity 
+              android:name="com.cn.law.ui.ForgetPSWActivity">
+
+                                </activity>  
+                                   <activity 
+              android:name="com.cn.law.ui.ForgetPSWYZActivity">
+
+                                </activity>         
+                                 <activity 
+              android:name="com.cn.law.ui.LawTypeItemActivity">
+ 
+                                </activity>    
+                                       <activity 
+              android:name="com.cn.law.ui.LawTypeItemItemActivity">
+
+                                </activity>  
+                         <activity 
+              android:name="com.cn.law.ui.LawSousuoContentActivity">
+
+                                </activity>  
+                                      <activity 
+              android:name="com.cn.law.ui.AuthorizActivity"
+                     android:hardwareAccelerated="false">
+
+                                </activity>  
+                                          <activity 
+              android:name="com.cn.law.ui.SharedActivity">
+
+                                </activity>  
+                                  <activity 
+              android:name="com.cn.law.ui.MySharedActivity">
+
+                                </activity>                         
+        <activity android:name="com.tencent.plus.ImageActivity" />
+        <activity
+            android:name=".ReturnActivity"
+            android:label="@string/title_activity_return" >
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent222222" />
+            </intent-filter>
+        </activity>  
+        <service android:name="com.cn.law.service.DownLoadService">        
+            </service>   
+                                                                   
+    </application>
+
+</manifest>

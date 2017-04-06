@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="18"
+   name=""
+   committed-date="2013-06-21T10:49:33.188698Z"
+   url="svn://140.206.48.34/fgapp/android/src/com/cn/law/Helper"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="18"/>
+<entry
+   committed-rev="69"
+   name="DBHelper.java"
+   text-time="2013-07-02T10:41:38.792510Z"
+   committed-date="2013-07-02T10:43:26.195907Z"
+   checksum="6360e0d55cdcc4cbce821b3dfb1e45dc"
+   last-author="xingdp"
+   kind="file"
+   revision="69"/>
+</wc-entries>

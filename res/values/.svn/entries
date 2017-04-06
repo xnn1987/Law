@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/res/values"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="2"
+   name="colors.xml"
+   text-time="2013-06-19T05:34:57.700000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="444c0618d7ce3f4e026fe462d6a4ba76"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="2"
+   name="styles.xml"
+   text-time="2013-06-19T05:15:54.894000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="02181db50ee0dcc3f52d88522eb897cc"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="2"
+   name="defaults.xml"
+   text-time="2013-06-13T04:03:10.440000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="e4b8cb95953d4fa7cf5f8b78d6d6d8ad"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="56"
+   name="strings.xml"
+   text-time="2013-06-28T09:28:30.172335Z"
+   committed-date="2013-06-28T10:09:35.741369Z"
+   checksum="fbd7614f3d205e3cc2ce290de4ed4e10"
+   last-author="xingdp"
+   kind="file"
+   revision="56"/>
+<entry
+   committed-rev="2"
+   name="attr.xml"
+   text-time="2013-06-13T03:51:43.379000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="9d1dcb9711d800f331871feaab343933"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="2"
+   name="dimens.xml"
+   text-time="2013-06-18T06:21:24.460000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="122a602369f5ff11f21f5fb921d97ee7"
+   last-author="xingdp"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:orientation="horizontal"
+    android:background="@drawable/body_bg_2x176" >
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/body_bg_2x19" />
+
+    <TextView
+        android:id="@+id/head_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.44"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:text="@string/fadui_detial" />
+    
+    <Button
+        android:id="@+id/head_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/body_bg_2x114" />
+    
+</LinearLayout>

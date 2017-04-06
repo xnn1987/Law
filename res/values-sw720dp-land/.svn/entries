@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/res/values-sw720dp-land"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="2"
+   name="dimens.xml"
+   text-time="2013-06-19T09:52:20.247222Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="c44415c834f3cc47079d646d0f81eacd"
+   last-author="xingdp"
+   kind="file"/>
+</wc-entries>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/src/com/cn/law/adapter"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="34"
+   name="MainAdpter.java"
+   text-time="2013-06-25T03:44:39.993386Z"
+   committed-date="2013-06-25T10:32:35.171894Z"
+   checksum="ab6472a8f101ca2f2f943b300e56193f"
+   last-author="xingdp"
+   kind="file"
+   revision="34"/>
+<entry
+   committed-rev="24"
+   name="LawTypeAdapter.java"
+   text-time="2013-06-24T06:38:03.536521Z"
+   committed-date="2013-06-24T11:02:33.402250Z"
+   checksum="7f693edd0dd36e216e654169c075f86c"
+   last-author="xingdp"
+   kind="file"
+   revision="24"/>
+</wc-entries>

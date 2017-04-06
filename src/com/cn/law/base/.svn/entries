@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/src/com/cn/law/base"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="12"
+   name="BaseActivity.java"
+   text-time="2013-06-20T07:27:17.704164Z"
+   committed-date="2013-06-20T10:07:17.622587Z"
+   checksum="dc45ebc621f2bae53944b3bb844dcd80"
+   last-author="xingdp"
+   kind="file"
+   revision="12"/>
+</wc-entries>

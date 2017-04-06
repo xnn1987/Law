@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      <include 
+     android:id="@+id/detail_head_layout"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     layout="@layout/law_detail_head"
+     android:layout_alignParentTop="true"
+      /> 
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center" 
+    >
+    <TextView 
+     android:id="@+id/user_txt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"  
+    android:text="用 户 名 ：" 
+ 
+        />
+
+   <EditText
+       android:id="@+id/user_edt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center" 
+       android:layout_toRightOf="@id/user_txt" 
+       android:text="s35ssl"
+       android:hint="请输入用户名" >
+
+   </EditText>
+</RelativeLayout>  
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center" 
+    >
+    <TextView 
+     android:id="@+id/email_txt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"  
+    android:text="邮     箱:      " 
+ 
+        />
+
+   <EditText
+       android:id="@+id/email_edt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center" 
+       android:layout_toRightOf="@id/email_txt" 
+       android:hint="请输入邮箱" 
+       android:text="744382606@qq.com">
+   </EditText>
+  <TextView 
+        android:id="@+id/email_niaos_txt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" 
+       android:layout_toRightOf="@id/email_txt"
+       android:layout_below="@id/email_edt"
+       android:text="密码提醒，你的密码将发送到此邮箱，请填写真实的邮箱"
+      />
+</RelativeLayout> 
+ <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center" 
+    >
+    <TextView 
+     android:id="@+id/user_txt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"  
+    android:text="密 码：       " 
+ 
+        />
+
+   <EditText
+       android:id="@+id/psw_edt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center" 
+       android:layout_toRightOf="@id/user_txt" 
+       android:hint="请输入密码"
+       android:password="true" 
+       android:text="112233">
+
+   </EditText>
+</RelativeLayout> 
+ <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center" 
+    >
+    <TextView 
+     android:id="@+id/user_txt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"  
+    android:text="重复密码" 
+ 
+        />
+
+   <EditText
+       android:id="@+id/repsw_edt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center" 
+       android:layout_toRightOf="@id/user_txt" 
+       android:hint="请输入重复密码"
+       android:password="true" 
+       android:text="xnn69307230" >
+
+   </EditText>
+</RelativeLayout>   
+<Button 
+        android:id="@+id/uploading"
+        android:layout_marginTop="50sp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"   
+       android:layout_gravity="center"
+       android:text="提交"
+       android:textSize="25sp"
+    />
+</LinearLayout>

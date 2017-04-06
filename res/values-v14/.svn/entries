@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/res/values-v14"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="2"
+   name="styles.xml"
+   text-time="2013-06-19T09:52:19.809197Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="eb9abcab9609d7ca887017ec152a38f5"
+   last-author="xingdp"
+   kind="file"/>
+</wc-entries>

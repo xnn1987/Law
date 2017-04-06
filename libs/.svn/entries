@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2013-06-19T10:16:39.164337Z"
+   url="svn://140.206.48.34/fgapp/android/libs"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="1"/>
+<entry
+   committed-rev="1"
+   name="umeng_social_sdk.jar"
+   text-time="2013-06-06T08:32:54.791000Z"
+   committed-date="2013-06-19T10:16:39.164337Z"
+   checksum="cccc43cf1f86774992ebd256593f5e9f"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:16:33.123322Z"/>
+<entry
+   committed-rev="1"
+   name="fastinternet.jar"
+   text-time="2013-06-18T02:24:00.467000Z"
+   committed-date="2013-06-19T10:16:39.164337Z"
+   checksum="2234083fd27f9a729cb737cc8bb9ffd2"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:16:33.134322Z"/>
+<entry
+   committed-rev="48"
+   name="twittercollect.jar"
+   text-time="2013-06-27T08:44:29.735000Z"
+   committed-date="2013-06-27T10:53:46.606114Z"
+   checksum="9a033090d9eb9851dbcd542e4db35205"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-27T10:53:40.483122Z"
+   revision="48"/>
+<entry
+   name="httpmime-4.1.3.jar"
+   kind="file"
+   deleted="true"
+   revision="48"/>
+<entry
+   committed-rev="1"
+   name="umeng_sdk.jar"
+   text-time="2013-04-23T11:43:44.000000Z"
+   committed-date="2013-06-19T10:16:39.164337Z"
+   checksum="e407791b5dcce2a25bf53ebc5d0bd0b4"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:16:33.117321Z"/>
+<entry
+   committed-rev="67"
+   name="zip4j_1.3.1.jar"
+   text-time="2013-07-01T08:22:34.367598Z"
+   committed-date="2013-07-02T10:43:12.486879Z"
+   checksum="b3f18a1500463773da07fca3704ca494"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-07-02T10:43:17.199139Z"
+   revision="67"/>
+<entry
+   committed-rev="1"
+   name="android-support-v4.jar"
+   text-time="2013-06-19T09:52:19.819197Z"
+   committed-date="2013-06-19T10:16:39.164337Z"
+   checksum="5dce8843261486180715e459d953885d"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:16:33.112321Z"/>
+<entry
+   committed-rev="55"
+   name="open_sdk.jar"
+   text-time="2013-03-12T11:25:32.000000Z"
+   committed-date="2013-06-28T10:09:28.091873Z"
+   checksum="1d74b57fb61b94169d078a32fdced999"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-28T10:09:13.864106Z"
+   revision="55"/>
+<entry
+   committed-rev="1"
+   name="libammsdk-r1.jar"
+   text-time="2013-06-06T08:32:54.779000Z"
+   committed-date="2013-06-19T10:16:39.164337Z"
+   checksum="7698c1ef4f5dc1c6cb252c87541f6212"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:16:33.139323Z"/>
+</wc-entries>

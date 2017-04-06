@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/src/com/cn/law/bean"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="62"
+   name="LawDownBean.java"
+   text-time="2013-07-01T03:59:07.257483Z"
+   committed-date="2013-07-01T10:30:27.867141Z"
+   checksum="fa27ee98d93550096d7267f94c97feb8"
+   last-author="xingdp"
+   kind="file"
+   revision="62"/>
+<entry
+   committed-rev="13"
+   name="MainFastBean.java"
+   text-time="2013-06-20T07:27:17.642160Z"
+   committed-date="2013-06-20T10:07:32.094952Z"
+   checksum="f099092bec5bbe31f29993bd2067aabe"
+   last-author="xingdp"
+   kind="file"
+   revision="13"/>
+<entry
+   committed-rev="25"
+   name="CommendBean.java"
+   text-time="2013-06-24T03:44:16.940154Z"
+   committed-date="2013-06-24T11:02:40.073358Z"
+   checksum="7f27c8d157b4a71601d3428a5f935cd5"
+   last-author="xingdp"
+   kind="file"
+   revision="25"/>
+<entry
+   committed-rev="13"
+   name="VersionBean.java"
+   text-time="2013-06-20T07:27:17.673162Z"
+   committed-date="2013-06-20T10:07:32.094952Z"
+   checksum="ccba9db3fcb80def5c7c6e464acf1857"
+   last-author="xingdp"
+   kind="file"
+   revision="13"/>
+<entry
+   committed-rev="25"
+   name="LawTypeBean.java"
+   text-time="2013-06-21T10:29:18.462070Z"
+   committed-date="2013-06-24T11:02:40.073358Z"
+   checksum="2c00b79ae8f26e5fb99f004a2dd01bca"
+   last-author="xingdp"
+   kind="file"
+   revision="25"/>
+<entry
+   committed-rev="62"
+   name="Constants.java"
+   text-time="2013-07-01T08:38:06.278900Z"
+   committed-date="2013-07-01T10:30:27.867141Z"
+   checksum="25661aba6b5c0cadf326c2ed7c2b4aa6"
+   last-author="xingdp"
+   kind="file"
+   revision="62"/>
+<entry
+   committed-rev="13"
+   name="LawDetialBean.java"
+   text-time="2013-06-20T07:27:17.018124Z"
+   committed-date="2013-06-20T10:07:32.094952Z"
+   checksum="51ff6c8674dc7e87adbd31c7f2ef70cf"
+   last-author="xingdp"
+   kind="file"
+   revision="13"/>
+</wc-entries>

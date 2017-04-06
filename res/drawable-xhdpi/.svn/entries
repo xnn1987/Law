@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/res/drawable-xhdpi"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="2"
+   name="ic_launcher.png"
+   text-time="2013-06-19T09:52:19.897202Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="c8512e924b6c291b04015e15e90e9768"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.682271Z"/>
+</wc-entries>

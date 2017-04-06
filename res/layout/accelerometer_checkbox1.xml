@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:background="@drawable/body_bg_2x1112"
+    android:orientation="vertical" >
+   
+    <com.cn.law.util.SlipButton3
+        android:id="@+id/slipbtndownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   
+        /> 
+
+</LinearLayout>

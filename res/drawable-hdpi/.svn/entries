@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/res/drawable-hdpi"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="2"
+   name="btn_next_l.png"
+   text-time="2013-04-26T09:57:32.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="37ade4ca3a72502705698d1a0e347134"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.634268Z"/>
+<entry
+   committed-rev="2"
+   name="icon_3_s.png"
+   text-time="2013-01-18T18:42:26.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="9fcb338bddaacbc6b4a15660449e9193"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.380253Z"/>
+<entry
+   committed-rev="8"
+   name="imagesoff.jpg"
+   text-time="2013-06-17T08:22:57.625000Z"
+   committed-date="2013-06-20T10:06:47.035584Z"
+   checksum="f8eaeda690ec89b91daed95044997d11"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-20T10:06:42.026212Z"
+   revision="8"/>
+<entry
+   committed-rev="2"
+   name="icon_4_s.png"
+   text-time="2013-01-18T18:42:26.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="b2a8485cad7b66f0b0d6fdea6b7c8190"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.412255Z"/>
+<entry
+   committed-rev="8"
+   name="imageson.jpg"
+   text-time="2013-06-17T08:22:57.624000Z"
+   committed-date="2013-06-20T10:06:47.035584Z"
+   checksum="5b8f14f341f7ec91cff22a545d7debf9"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-20T10:06:42.009211Z"
+   revision="8"/>
+<entry
+   committed-rev="2"
+   name="commend_s.png"
+   text-time="2013-06-14T05:06:02.105000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="e8bf7958c9d3aa78fab09a30fee3d5eb"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.551263Z"/>
+<entry
+   committed-rev="75"
+   name="yidao.png"
+   text-time="2013-07-05T02:38:06.601971Z"
+   committed-date="2013-07-05T11:13:07.894173Z"
+   checksum="42c76e1486a607f1cdb02b44ecb4bd6b"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-07-05T11:12:34.485513Z"
+   revision="75"/>
+<entry
+   committed-rev="75"
+   name="icon_1.png"
+   text-time="2013-07-05T05:26:09.625687Z"
+   committed-date="2013-07-05T11:13:07.894173Z"
+   checksum="89e33cd4c80632659a85a0976613c868"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-07-05T11:12:34.543516Z"
+   revision="75"/>
+<entry
+   committed-rev="2"
+   name="btn_top_list_l.png"
+   text-time="2013-04-26T09:57:32.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="96ba513dfa9831f287badb8f4437d5df"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.744274Z"/>
+<entry
+   committed-rev="2"
+   name="p1.jpg"
+   text-time="2013-06-19T08:48:16.586000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="5b8f14f341f7ec91cff22a545d7debf9"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.739274Z"/>
+<entry
+   committed-rev="2"
+   name="daohang_1.png"
+   text-time="2013-05-20T02:05:49.374000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="5fbc8fc3a8c862c5548eef96aa2a6642"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.323250Z"/>
+<entry
+   committed-rev="2"
+   name="home_btn_bg_s.png"
+   text-time="2013-01-18T18:42:26.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="6b2263d89d40974504b847b154d0537a"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.447257Z"/>
+<entry
+   committed-rev="2"
+   name="tab_bg1.png"
+   text-time="2013-01-18T18:42:26.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="41bbb75a437616b18a2ed1075417671c"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.482259Z"/>
+<entry
+   committed-rev="2"
+   name="loading4.png"
+   text-time="2013-03-18T05:30:04.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="5be0921c1a80911d568f189de023de58"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.629268Z"/>
+<entry
+   committed-rev="2"
+   name="arrow_1in.png"
+   text-time="2013-04-16T09:52:42.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="3025d647778f78ac1f00c85b85c41f88"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.464258Z"/>
+<entry
+   committed-rev="8"
+   name="show_slip.png"
+   text-time="2012-08-17T05:48:09.282000Z"
+   committed-date="2013-06-20T10:06:47.035584Z"
+   checksum="b63d263166fdcaf4fa28cfcdccfa30d9"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-20T10:06:42.000210Z"
+   revision="8"/>
+<entry
+   committed-rev="8"
+   name="show_off.png"
+   text-time="2012-08-17T05:48:09.323000Z"
+   committed-date="2013-06-20T10:06:47.035584Z"
+   checksum="e6349ad9b9fa31762a69bcfdfb1b20c0"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-20T10:06:41.991210Z"
+   revision="8"/>
+<entry
+   committed-rev="2"
+   name="bg_top.png"
+   text-time="2013-04-26T09:57:32.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="33d029906cd6c384f3bdbcce34b8b748"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.342251Z"/>
+<entry
+   committed-rev="2"
+   name="bg_bottom.png"
+   text-time="2013-04-26T09:57:32.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="f732393fb9c190c22e54a30b3f51e103"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.692271Z"/>
+<entry
+   committed-rev="8"
+   name="show_on.png"
+   text-time="2012-08-17T05:48:09.322000Z"
+   committed-date="2013-06-20T10:06:47.035584Z"
+   checksum="59fefa6d55f874360dfbbc378c6ab5ee"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-20T10:06:42.017211Z"
+   revision="8"/>
+<entry
+   committed-rev="9"
+   name="ic_launcher.png"
+   text-time="2013-06-17T07:19:59.808000Z"
+   committed-date="2013-06-20T10:06:58.716306Z"
+   checksum="d0cec7c8cda5327b8a17b8980bcc88eb"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-20T10:06:53.743882Z"
+   revision="9"/>
+<entry
+   committed-rev="2"
+   name="save_s.png"
+   text-time="2013-06-14T05:06:02.102000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="f3083fd82fe3e334f3624150b4a002bc"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.649269Z"/>
+<entry
+   committed-rev="2"
+   name="share_s.png"
+   text-time="2013-06-14T05:06:02.104000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="f93ecda8b9b1dc082f8215e38acdaba2"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.675270Z"/>
+<entry
+   committed-rev="2"
+   name="icon_1_n.png"
+   text-time="2013-01-18T18:42:26.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="8f49623851abd54e5b1c9172d12c7ab8"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.723273Z"/>
+<entry
+   committed-rev="2"
+   name="icon_2_n.png"
+   text-time="2013-01-18T18:42:26.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="2ca29966c0e778600dd8fdad3d327355"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.436257Z"/>
+<entry
+   committed-rev="75"
+   name="yidao1.png"
+   text-time="2013-07-05T02:38:06.603971Z"
+   committed-date="2013-07-05T11:13:07.894173Z"
+   checksum="e12763275809a10ad8fee45d05e04420"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-07-05T11:12:34.515514Z"
+   revision="75"/>
+<entry
+   committed-rev="2"
+   name="icon_3_n.png"
+   text-time="2013-01-18T18:42:26.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="3472c0bb73a333f81576a47fbbaf879f"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.499260Z"/>
+<entry
+   committed-rev="75"
+   name="yidao2.png"
+   text-time="2013-07-05T02:38:06.597970Z"
+   committed-date="2013-07-05T11:13:07.894173Z"
+   checksum="14d1e018c308d4d83cc0de3d22c6fc87"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-07-05T11:12:34.447510Z"
+   revision="75"/>
+<entry
+   committed-rev="2"
+   name="icon_4_n.png"
+   text-time="2013-01-18T18:42:26.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="03561cc8367658e3cc394949ab61b5b8"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.368253Z"/>
+<entry
+   committed-rev="2"
+   name="icon_1_s.png"
+   text-time="2013-01-18T18:42:26.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="f2897ba9178cfee70cd0803ce9f1195b"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.778276Z"/>
+<entry
+   committed-rev="2"
+   name="icon_2_s.png"
+   text-time="2013-01-18T18:42:26.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="f2f501f92b558e0ae6ec441acad463b8"
+   last-author="xingdp"
+   kind="file"
+   prop-time="2013-06-19T10:17:24.351252Z"/>
+</wc-entries>

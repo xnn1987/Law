@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <color name="transparent">#00ffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="headtext">#ff515151</color>
+    <color name="itemtext">#ff000000</color>
+    <color name="textcolor">#ff616161</color>
+    <color name="listbg">#fffdf5e6</color>
+    <color name="title_bg">#fff0e68c</color>  
+</resources>

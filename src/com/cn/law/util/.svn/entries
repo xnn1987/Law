@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/src/com/cn/law/util"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="72"
+   name="ZipUtil.java"
+   text-time="2013-07-02T01:38:25.855301Z"
+   committed-date="2013-07-02T10:43:44.818719Z"
+   checksum="c777d84519e70ee1427be60f6663825b"
+   last-author="xingdp"
+   kind="file"
+   revision="72"/>
+<entry
+   committed-rev="15"
+   name="ActionContentView.java"
+   text-time="2013-06-20T07:27:17.697163Z"
+   committed-date="2013-06-20T10:08:11.872004Z"
+   checksum="487e89dc038d13ae640cfab32d9719f6"
+   last-author="xingdp"
+   kind="file"
+   revision="15"/>
+<entry
+   committed-rev="46"
+   name="Base64ZipUtil.java"
+   text-time="2013-06-26T02:03:04.280421Z"
+   committed-date="2013-06-26T10:36:17.456944Z"
+   checksum="a9740eea61b0f9255fa2764a9d93999a"
+   last-author="xingdp"
+   kind="file"
+   revision="46"/>
+<entry
+   committed-rev="72"
+   name="JsonUtil.java"
+   text-time="2013-07-02T09:24:16.961012Z"
+   committed-date="2013-07-02T10:43:44.818719Z"
+   checksum="dd424f8a63c0ab8a0dd87aabe2bc2d76"
+   last-author="xingdp"
+   kind="file"
+   revision="72"/>
+<entry
+   committed-rev="53"
+   name="XmlParserUtil.java"
+   text-time="2013-06-27T06:13:24.981330Z"
+   committed-date="2013-06-27T10:54:28.447847Z"
+   checksum="189428b4870d800d246f66d230a6cb7e"
+   last-author="xingdp"
+   kind="file"
+   revision="53"/>
+<entry
+   committed-rev="15"
+   name="Util.java"
+   text-time="2013-06-20T07:27:16.734108Z"
+   committed-date="2013-06-20T10:08:11.872004Z"
+   checksum="bc567dad833f8e68255fab294d1bdcf8"
+   last-author="xingdp"
+   kind="file"
+   revision="15"/>
+<entry
+   committed-rev="29"
+   name="HashUtil.java"
+   text-time="2013-06-24T02:55:22.964340Z"
+   committed-date="2013-06-24T11:03:10.561002Z"
+   checksum="f1b55ec047bccb5a9e403ffbc4404e9c"
+   last-author="xingdp"
+   kind="file"
+   revision="29"/>
+<entry
+   name="Base64Util.java"
+   kind="file"
+   deleted="true"
+   revision="46"/>
+<entry
+   committed-rev="15"
+   name="New_guide_ScrollLayout.java"
+   text-time="2013-06-20T07:27:17.712164Z"
+   committed-date="2013-06-20T10:08:11.872004Z"
+   checksum="df691920540b01f68e23b34c53d8d2d7"
+   last-author="xingdp"
+   kind="file"
+   revision="15"/>
+<entry
+   committed-rev="15"
+   name="ProgressDialogUtil.java"
+   text-time="2013-06-20T07:27:17.198135Z"
+   committed-date="2013-06-20T10:08:11.872004Z"
+   checksum="6642824497989e8968b65e2e0fa9c701"
+   last-author="xingdp"
+   kind="file"
+   revision="15"/>
+<entry
+   committed-rev="29"
+   name="DBHelperUtil.java"
+   text-time="2013-06-24T09:46:08.055958Z"
+   committed-date="2013-06-24T11:03:10.561002Z"
+   checksum="e88ef882c0cad6e2605acd08ba215d94"
+   last-author="xingdp"
+   kind="file"
+   revision="29"/>
+<entry
+   committed-rev="28"
+   name="MD5Util.java"
+   text-time="2013-06-24T02:37:29.619948Z"
+   committed-date="2013-06-24T11:03:02.622271Z"
+   checksum="66a34cbbf530137a0dfdf2fb58dff051"
+   last-author="xingdp"
+   kind="file"
+   revision="28"/>
+<entry
+   committed-rev="66"
+   name="CutViewUtil.java"
+   text-time="2013-07-01T01:56:30.250962Z"
+   committed-date="2013-07-01T10:59:16.164357Z"
+   checksum="93b8b505b0af4471cbe3e3beb6d79de6"
+   last-author="xingdp"
+   kind="file"
+   revision="66"/>
+<entry
+   committed-rev="15"
+   name="SlipButton3.java"
+   text-time="2013-06-20T07:27:17.601158Z"
+   committed-date="2013-06-20T10:08:11.872004Z"
+   checksum="d4a0ac26976953b013d1a931bbfcb469"
+   last-author="xingdp"
+   kind="file"
+   revision="15"/>
+<entry
+   committed-rev="2"
+   name="New_Guide_Interface.java"
+   text-time="2013-06-18T05:46:03.907000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="c5199508beac52f43372097a971e3e6e"
+   last-author="xingdp"
+   kind="file"/>
+</wc-entries>

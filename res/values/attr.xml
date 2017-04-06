@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    <!-- Default spacing types. -->
+    <attr name="spacing_type">
+        <!-- Spacing will be calculated as offset from right bound of view. -->
+        <enum name="right_offset" value="0" />
+        <!-- Spacing will be calculated as right bound of actions container. -->
+        <enum name="actions_width" value="1" />
+    </attr>
+
+    <declare-styleable name="ActionsContentView">
+
+        <!-- Spacing type. -->
+        <attr name="spacing_type" />
+        <!-- Spacing value. -->
+        <attr name="spacing" format="dimension" />
+        <!-- Spacing value for actions container. -->
+        <attr name="actions_spacing" format="dimension" />
+        <!-- Actions layout ID to link at view creation time. -->
+        <attr name="actions_layout" format="reference"/>
+        <!-- Content layout ID to link at view creation time. -->
+        <attr name="content_layout" format="reference"/>
+        <!-- Drawable to be used to draw shadow dropped by content view to actions one. -->
+        <attr name="shadow_drawable" format="reference"/>
+        <!-- Shadow width. -->
+        <attr name="shadow_width" format="dimension" />
+    </declare-styleable>  
+</resources>

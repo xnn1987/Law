@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/res/menu"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="2"
+   name="main.xml"
+   text-time="2013-06-19T09:52:20.238221Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="52620ffd520d2e0c44b7a6a71185c14b"
+   last-author="xingdp"
+   kind="file"/>
+</wc-entries>

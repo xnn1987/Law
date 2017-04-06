@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/src/com/cn/law/ui"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="45"
+   name="LawLoadActivity.java"
+   text-time="2013-06-26T04:06:42.520720Z"
+   committed-date="2013-06-26T10:36:08.834773Z"
+   checksum="2b3a10880754de5fdb992812dedc1d76"
+   last-author="xingdp"
+   kind="file"
+   revision="45"/>
+<entry
+   committed-rev="19"
+   name="MainActivity.java"
+   text-time="2013-06-21T08:03:17.047218Z"
+   committed-date="2013-06-21T10:50:15.119756Z"
+   checksum="06c20e10d76d7a0dcb8e3f78c4b37578"
+   last-author="xingdp"
+   kind="file"
+   revision="19"/>
+<entry
+   committed-rev="71"
+   name="LawTypeActivity.java"
+   text-time="2013-07-02T06:36:48.548276Z"
+   committed-date="2013-07-02T10:43:39.330012Z"
+   checksum="78491d0f26239af169428945c2b48beb"
+   last-author="xingdp"
+   kind="file"
+   revision="71"/>
+<entry
+   committed-rev="45"
+   name="LawLoadItemDetialActivity.java"
+   text-time="2013-06-26T06:36:19.684184Z"
+   committed-date="2013-06-26T10:36:08.834773Z"
+   checksum="de7bd23bd226df99099e6d857c6205be"
+   last-author="xingdp"
+   kind="file"
+   revision="45"/>
+<entry
+   committed-rev="14"
+   name="HelpActivity.java"
+   text-time="2013-06-20T09:40:55.924780Z"
+   committed-date="2013-06-20T10:08:00.450547Z"
+   checksum="523e431372a3032aa43b2cbb9e0d491f"
+   last-author="xingdp"
+   kind="file"
+   revision="14"/>
+<entry
+   committed-rev="14"
+   name="MyCollectActivity.java"
+   text-time="2013-06-20T07:27:17.719165Z"
+   committed-date="2013-06-20T10:08:00.450547Z"
+   checksum="d4fc599396407733d02f4215a0263354"
+   last-author="xingdp"
+   kind="file"
+   revision="14"/>
+<entry
+   committed-rev="52"
+   name="SuggestBackActivity.java"
+   text-time="2013-06-27T03:32:49.533214Z"
+   committed-date="2013-06-27T10:54:17.310038Z"
+   checksum="3594657422d673a3432bcd0d16ec75aa"
+   last-author="xingdp"
+   kind="file"
+   revision="52"/>
+<entry
+   committed-rev="60"
+   name="AuthorizActivity.java"
+   text-time="2013-06-28T07:07:17.917750Z"
+   committed-date="2013-06-28T10:10:02.758741Z"
+   checksum="4ee4d83222be39f9bd7ba8c40f0ccd4d"
+   last-author="xingdp"
+   kind="file"
+   revision="60"/>
+<entry
+   name="MyShareActivity.java"
+   kind="file"
+   deleted="true"
+   revision="14"/>
+<entry
+   committed-rev="52"
+   name="AboutActivity.java"
+   text-time="2013-06-27T02:42:23.496135Z"
+   committed-date="2013-06-27T10:54:17.310038Z"
+   checksum="bfda662034a7fd08e4206069478ac57f"
+   last-author="xingdp"
+   kind="file"
+   revision="52"/>
+<entry
+   name="CopyOfMyCollectActivity.java"
+   kind="file"
+   deleted="true"
+   revision="45"/>
+<entry
+   committed-rev="14"
+   name="LawDiseableActivity.java"
+   text-time="2013-06-20T10:03:00.209524Z"
+   committed-date="2013-06-20T10:08:00.450547Z"
+   checksum="38a1cb87ae7e1fef55669804985b4ab8"
+   last-author="xingdp"
+   kind="file"
+   revision="14"/>
+<entry
+   committed-rev="14"
+   name="SettingActivity.java"
+   text-time="2013-06-20T07:27:17.630159Z"
+   committed-date="2013-06-20T10:08:00.450547Z"
+   checksum="89f0d3dafd021ad4e38b4c6a389c2686"
+   last-author="xingdp"
+   kind="file"
+   revision="14"/>
+<entry
+   committed-rev="52"
+   name="RegesterActivity.java"
+   text-time="2013-06-27T08:40:50.813283Z"
+   committed-date="2013-06-27T10:54:17.310038Z"
+   checksum="71c8db53ca09cb7a59a7e066d221f364"
+   last-author="xingdp"
+   kind="file"
+   revision="52"/>
+<entry
+   committed-rev="71"
+   name="LawLoadItemItemActivity.java"
+   text-time="2013-07-02T10:18:26.096852Z"
+   committed-date="2013-07-02T10:43:39.330012Z"
+   checksum="1ffac34ec0ecdb8922ff7c8b24c4fcc9"
+   last-author="xingdp"
+   kind="file"
+   revision="71"/>
+<entry
+   committed-rev="45"
+   name="LawTypeItemItemActivity.java"
+   text-time="2013-06-26T05:49:08.708262Z"
+   committed-date="2013-06-26T10:36:08.834773Z"
+   checksum="63a6862530fa1329ad007b8c71d88cff"
+   last-author="xingdp"
+   kind="file"
+   revision="45"/>
+<entry
+   committed-rev="27"
+   name="MyCommendActivity.java"
+   text-time="2013-06-24T08:28:08.101280Z"
+   committed-date="2013-06-24T11:02:56.550087Z"
+   checksum="e6d9f3c49f091e381f2ab31103d64589"
+   last-author="xingdp"
+   kind="file"
+   revision="27"/>
+<entry
+   committed-rev="27"
+   name="HomeActivity.java"
+   text-time="2013-06-24T11:00:45.094030Z"
+   committed-date="2013-06-24T11:02:56.550087Z"
+   checksum="12c27e6066c562f2736b66f05b971032"
+   last-author="xingdp"
+   kind="file"
+   revision="27"/>
+<entry
+   committed-rev="45"
+   name="LawSousuoContentActivity.java"
+   text-time="2013-06-26T07:22:07.323340Z"
+   committed-date="2013-06-26T10:36:08.834773Z"
+   checksum="f4cd79b2f640d8185a0ba7dbd077f573"
+   last-author="xingdp"
+   kind="file"
+   revision="45"/>
+<entry
+   committed-rev="45"
+   name="LawSouSuoActivity.java"
+   text-time="2013-06-26T03:17:29.697828Z"
+   committed-date="2013-06-26T10:36:08.834773Z"
+   checksum="7cfa60a66b86c0a3aa901c06ceebbbfd"
+   last-author="xingdp"
+   kind="file"
+   revision="45"/>
+<entry
+   name="LawSaveActivity.java"
+   kind="file"
+   deleted="true"
+   revision="27"/>
+<entry
+   committed-rev="14"
+   name="MoreActivity.java"
+   text-time="2013-06-20T07:27:17.623159Z"
+   committed-date="2013-06-20T10:08:00.450547Z"
+   checksum="58a26f0e406086de63107f42c1d6883b"
+   last-author="xingdp"
+   kind="file"
+   revision="14"/>
+<entry
+   committed-rev="14"
+   name="MyAccountActivity.java"
+   text-time="2013-06-20T07:27:17.667162Z"
+   committed-date="2013-06-20T10:08:00.450547Z"
+   checksum="546e12d303ffe703a52dcfa3546d9ed9"
+   last-author="xingdp"
+   kind="file"
+   revision="14"/>
+<entry
+   committed-rev="71"
+   name="LawLoadItemActivity.java"
+   text-time="2013-07-02T09:51:34.038648Z"
+   committed-date="2013-07-02T10:43:39.330012Z"
+   checksum="f1e434c9b29ce88b0cfdc0661f23bb87"
+   last-author="xingdp"
+   kind="file"
+   revision="71"/>
+<entry
+   committed-rev="71"
+   name="LawTypeItemActivity.java"
+   text-time="2013-07-02T10:04:06.937711Z"
+   committed-date="2013-07-02T10:43:39.330012Z"
+   checksum="152a0150f5e081cde908762e83ed14a9"
+   last-author="xingdp"
+   kind="file"
+   revision="71"/>
+<entry
+   committed-rev="63"
+   name="LawDetialActivity.java"
+   text-time="2013-07-01T01:57:51.865630Z"
+   committed-date="2013-07-01T10:30:41.414801Z"
+   checksum="7140a1ac905dec2c3b3ecc2c5a44c0e1"
+   last-author="xingdp"
+   kind="file"
+   revision="63"/>
+<entry
+   committed-rev="63"
+   name="SharedActivity.java"
+   text-time="2013-07-01T03:23:08.464007Z"
+   committed-date="2013-07-01T10:30:41.414801Z"
+   checksum="62c1994114db503df7e8504c10e01914"
+   last-author="xingdp"
+   kind="file"
+   revision="63"/>
+<entry
+   committed-rev="14"
+   name="NewGuideActivity.java"
+   text-time="2013-06-20T07:27:17.403146Z"
+   committed-date="2013-06-20T10:08:00.450547Z"
+   checksum="baeb4d087f27c0402eee7a7296df1444"
+   last-author="xingdp"
+   kind="file"
+   revision="14"/>
+<entry
+   committed-rev="60"
+   name="LoginActivity.java"
+   text-time="2013-06-28T02:25:09.796479Z"
+   committed-date="2013-06-28T10:10:02.758741Z"
+   checksum="98cc4d4f44c4c0b3fd45ae78dac4ca90"
+   last-author="xingdp"
+   kind="file"
+   revision="60"/>
+<entry
+   committed-rev="52"
+   name="UpdatePSWActivity.java"
+   text-time="2013-06-27T02:33:27.525479Z"
+   committed-date="2013-06-27T10:54:17.310038Z"
+   checksum="425a41b7e1097f333c5f2a0e2cb4d5b5"
+   last-author="xingdp"
+   kind="file"
+   revision="52"/>
+<entry
+   committed-rev="45"
+   name="ForgetPSWActivity.java"
+   text-time="2013-06-26T10:35:07.987716Z"
+   committed-date="2013-06-26T10:36:08.834773Z"
+   checksum="8d4a624966c2f560745f1571c085bb3c"
+   last-author="xingdp"
+   kind="file"
+   revision="45"/>
+<entry
+   committed-rev="19"
+   name="AppStart.java"
+   text-time="2013-06-21T03:52:46.905543Z"
+   committed-date="2013-06-21T10:50:15.119756Z"
+   checksum="89d6102429ba0bc2155decc46f6fae3c"
+   last-author="xingdp"
+   kind="file"
+   revision="19"/>
+</wc-entries>

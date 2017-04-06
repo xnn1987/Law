@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <dimen name="default_actionscontentview_spacing">64dip</dimen>
+    <dimen name="default_actionscontentview_actions_spacing">0dip</dimen>
+</resources>

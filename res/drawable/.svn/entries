@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2013-06-19T10:17:30.186402Z"
+   url="svn://140.206.48.34/fgapp/android/res/drawable"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="2"/>
+<entry
+   committed-rev="74"
+   name="mainlist_selector.xml"
+   text-time="2013-07-05T08:45:12.436776Z"
+   committed-date="2013-07-05T11:12:29.957849Z"
+   checksum="bbde3729ef2cf085320e511c00d28cf0"
+   last-author="xingdp"
+   kind="file"
+   revision="74"/>
+<entry
+   committed-rev="74"
+   name="startsearch.xml"
+   text-time="2013-07-05T09:58:02.111707Z"
+   committed-date="2013-07-05T11:12:29.957849Z"
+   checksum="ccd269c19c49896159d916f9a795cd02"
+   last-author="xingdp"
+   kind="file"
+   revision="74"/>
+<entry
+   committed-rev="5"
+   name="arrow_select.xml"
+   text-time="2013-06-17T07:24:11.635000Z"
+   committed-date="2013-06-20T10:05:28.509177Z"
+   checksum="9bc8f1ef3aba0d75ebebeaf970836b57"
+   last-author="xingdp"
+   kind="file"
+   revision="5"/>
+<entry
+   committed-rev="2"
+   name="progressbar.xml"
+   text-time="2013-05-20T06:15:18.056000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="679561bc027fe08b0a89839029fc69cf"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="74"
+   name="weixinfriend.xml"
+   text-time="2013-07-05T08:46:21.984754Z"
+   committed-date="2013-07-05T11:12:29.957849Z"
+   checksum="49ae040bcdb9a34547c693eb5a85f64b"
+   last-author="xingdp"
+   kind="file"
+   revision="74"/>
+<entry
+   committed-rev="5"
+   name="schpwr_alarm_clock_background.xml"
+   text-time="2013-06-17T08:23:59.180000Z"
+   committed-date="2013-06-20T10:05:28.509177Z"
+   checksum="615e508dca0dd3bf9bd7e916648ab1d7"
+   last-author="xingdp"
+   kind="file"
+   revision="5"/>
+<entry
+   committed-rev="74"
+   name="fengxian.xml"
+   text-time="2013-07-05T08:44:36.799738Z"
+   committed-date="2013-07-05T11:12:29.957849Z"
+   checksum="7bafc8a8be93dd0bed4b8296a6c0968c"
+   last-author="xingdp"
+   kind="file"
+   revision="74"/>
+<entry
+   committed-rev="74"
+   name="tencent.xml"
+   text-time="2013-07-05T08:46:09.344031Z"
+   committed-date="2013-07-05T11:12:29.957849Z"
+   checksum="7dea78329aa73f0283e59106377cd394"
+   last-author="xingdp"
+   kind="file"
+   revision="74"/>
+<entry
+   committed-rev="74"
+   name="more.xml"
+   text-time="2013-07-05T11:02:36.828328Z"
+   committed-date="2013-07-05T11:12:29.957849Z"
+   checksum="2ca2ecb95846d1caa680bc5e84f8e4cf"
+   last-author="xingdp"
+   kind="file"
+   revision="74"/>
+<entry
+   committed-rev="74"
+   name="weixin.xml"
+   text-time="2013-07-05T08:46:15.959410Z"
+   committed-date="2013-07-05T11:12:29.957849Z"
+   checksum="dec744bf7e746e3c3a5577f8283b3826"
+   last-author="xingdp"
+   kind="file"
+   revision="74"/>
+<entry
+   committed-rev="2"
+   name="home_btn_bg.xml"
+   text-time="2013-01-18T18:42:26.000000Z"
+   committed-date="2013-06-19T10:17:30.186402Z"
+   checksum="d68a18c817a5c29580c57a06429d6893"
+   last-author="xingdp"
+   kind="file"/>
+<entry
+   committed-rev="74"
+   name="lawtypeitem.xml"
+   text-time="2013-07-05T08:45:03.420261Z"
+   committed-date="2013-07-05T11:12:29.957849Z"
+   checksum="c061f35e39a9dd0e6c67990218eb1231"
+   last-author="xingdp"
+   kind="file"
+   revision="74"/>
+<entry
+   committed-rev="74"
+   name="quxiao.xml"
+   text-time="2013-07-05T08:46:37.584646Z"
+   committed-date="2013-07-05T11:12:29.957849Z"
+   checksum="7d35e917acac378e209a4453c6b39814"
+   last-author="xingdp"
+   kind="file"
+   revision="74"/>
+<entry
+   committed-rev="74"
+   name="pinglun.xml"
+   text-time="2013-07-05T08:46:42.526929Z"
+   committed-date="2013-07-05T11:12:29.957849Z"
+   checksum="bfee81d0f1799af164cdb3531a8476f8"
+   last-author="xingdp"
+   kind="file"
+   revision="74"/>
+<entry
+   committed-rev="74"
+   name="sinashare.xml"
+   text-time="2013-07-05T08:46:03.530699Z"
+   committed-date="2013-07-05T11:12:29.957849Z"
+   checksum="f8029ac7ab6bf064697fbe1015ffa783"
+   last-author="xingdp"
+   kind="file"
+   revision="74"/>
+<entry
+   committed-rev="74"
+   name="shouchang.xml"
+   text-time="2013-07-05T08:45:56.155277Z"
+   committed-date="2013-07-05T11:12:29.957849Z"
+   checksum="9bd88d9276eaee14c3ca69b3bff31dfe"
+   last-author="xingdp"
+   kind="file"
+   revision="74"/>
+</wc-entries>

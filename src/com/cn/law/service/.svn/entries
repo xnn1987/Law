@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="58"
+   name=""
+   committed-date="2013-06-28T10:09:52.709950Z"
+   url="svn://140.206.48.34/fgapp/android/src/com/cn/law/service"
+   last-author="xingdp"
+   kind="dir"
+   repos="svn://140.206.48.34/fgapp/android"
+   revision="58"/>
+<entry
+   committed-rev="59"
+   name="AppRegister.java"
+   text-time="2013-06-28T03:24:47.089089Z"
+   committed-date="2013-06-28T10:09:54.314103Z"
+   checksum="e3ef56a8d135579db698ba533d39a803"
+   last-author="xingdp"
+   kind="file"
+   revision="59"/>
+<entry
+   committed-rev="70"
+   name="DownLoadService.java"
+   text-time="2013-07-02T10:28:38.661889Z"
+   committed-date="2013-07-02T10:43:33.975825Z"
+   checksum="ab6a7ba5ddd3f21daf4f30778941a389"
+   last-author="xingdp"
+   kind="file"
+   revision="70"/>
+</wc-entries>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      <include 
+     android:id="@+id/commend_head_layout"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     layout="@layout/law_detail_head"
+     android:layout_alignParentTop="true"
+      />
+      <ListView 
+     android:id="@+id/mycommend_list"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/commend_head_layout"
+     android:layout_marginLeft="10sp"
+     android:layout_marginRight="10sp"
+     android:dividerHeight="20dip"
+     android:background="@drawable/body_bg_2x1111"
+     android:divider="@android:color/white"
+          /> 
+      <LinearLayout 
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@drawable/body_bg_2x159" 
+     android:orientation="horizontal"  
+     android:layout_alignParentBottom="true"
+          >
+          <EditText 
+    android:id="@+id/commend_head_edt"
+     android:layout_width="240sp"
+     android:layout_height="wrap_content"
+     android:hint="@string/commend_edt"
+     android:background="@drawable/body_bg_2x151"   
+    />
+      <Button 
+       android:id="@+id/sendCommend_btn"
+      android:layout_width="wrap_content"
+     android:layout_height="wrap_content"  
+     android:background="@drawable/body_bg_2x142" 
+          />
+      </LinearLayout> 
+
+</RelativeLayout>
